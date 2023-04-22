@@ -1,1 +1,1 @@
-Sitemap: http://localhost:4000/my2cents/sitemap.xml
+Sitemap: https://academicpages.github.io/sitemap.xml
