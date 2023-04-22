@@ -1,11 +1,9 @@
 ---
-title: 'Future Blog Post'
+title: 'Hello World'
 date: 2023-04-21
 permalink: /posts/2023/04/blog-post-1/
 tags:
-  - cool posts
-  - category1
-  - category2
+  - hello world
 ---
 
 # Hello world!
