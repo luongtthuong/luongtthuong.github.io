@@ -7,19 +7,17 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Huong Luong"
+title                    : "Chao Li"
 title_separator          : "-"
-name                     : &name "Huong Luong"
-description              : &description "Business Data Analyst"
-url                      : https://luongtthuong.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+name                     : &name "Chao Li"
+description              : &description "personal description"
+url                      : https://ChaoLi1991.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "luongtthuong/luongtthuong.github.io"
+repository               : "ChaoLi1991/ChaoLi1991.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
-future                   : false
 read_more                : "disabled" # if enabled, adds "Read more" links to excerpts
-talkmap_link             : false #change to true to add link to talkmap on talks page
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
   disqus:
@@ -80,15 +78,13 @@ analytics:
 
 # Site Author
 author:
-  name             : "Huong Luong"
-  avatar           : "profile.jpeg"
-  bio              : "Business Data Analyst"
-  location         : "La Jolla, CA"
+  name             : "Chao Li (李超)"
+  avatar           : "ChaoLi.jpg"
+  bio              : "PhD candidate of The Department of Electronic Engineering at Xidian University"
+  location         : "Xidian University"
   employer         :
-  pubmed           :
-  googlescholar    :
-  email            :
-  researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
+  googlescholar    : "https://scholar.google.com.hk/citations?user=RVPJ7LUAAAAJ&hl=zh-CN"
+  email            : "chaolee.xd@gmail.com"
   uri              :
   bitbucket        :
   codepen          :
@@ -96,20 +92,19 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "luongtthuong"
+  github           : "ChaoLi1991"
   google_plus      :
   keybase          :
   instagram        :
-  impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         : huong-luong-92775770
-  orcid            :
+  linkedin         :
+  orcid            : 
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          :
+  twitter          : 
   vine             :
   weibo            :
   xing             :
@@ -129,23 +124,22 @@ exclude:
   - .bundle
   - .jekyll-assets-cache
   - .sass-cache
-  - CHANGELOG
+  - assets/js/plugins
+  - assets/js/_main.js
+  - assets/js/vendor
   - Capfile
+  - CHANGELOG
+  - config
   - Gemfile
   - Gruntfile.js
-  - LICENSE
-  - README
-  - Rakefile
-  - assets/js/_main.js
-  - assets/js/plugins
-  - assets/js/vendor
-  - config
   - gulpfile.js
+  - LICENSE
   - log
   - node_modules
   - package.json
+  - Rakefile
+  - README
   - tmp
-  - vendor
 keep_files:
   - .git
   - .svn
@@ -234,7 +228,7 @@ defaults:
     values:
       layout: single
       author_profile: true
-      share: true
+      share: False
       comment: true
   # _talks
   - scope:
@@ -259,7 +253,7 @@ timezone: America/Los_Angeles # http://en.wikipedia.org/wiki/List_of_tz_database
 
 
 # Plugins
-plugins:
+gems:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
